@@ -1,2 +1,2 @@
 # SongDownloader
-A song downloader using yt-dlp 
+A powershell GUI script song downloader using yt-dlp 
