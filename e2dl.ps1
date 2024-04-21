@@ -35,7 +35,13 @@ $button.Add_Click({
         [System.Windows.Forms.MessageBox]::Show("Error: Invalid URL format. Please enter a valid URL starting with 'http://' or 'https://'", "Error", "OK", "Error")
         return
     }
-
+    
+    # Exclude kick.com and twitch.tv sites
+    if ($songUrl -match "kick.com|twitch.tv") {
+        [System.Windows.Forms.MessageBox]::Show("Error: Streaming sites are disabled.", "Error", "OK", "Error")
+        return
+    }
+    
     # Set the output directory
     $outputDir = "$env:userprofile\Music\yt-dlp\Download"
 
