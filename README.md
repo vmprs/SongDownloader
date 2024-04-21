@@ -19,4 +19,5 @@ You must install yt-dlp via Python ( pip install yt-dlp )
 
 4. Spotify (requires additional setup):
    - Example: spotify:track:TRACK_ID
-  (NOTE: The Track ID can be found within the link after /track/ or /album/
+
+https://i.imgur.com/aEWWUuQ.png
