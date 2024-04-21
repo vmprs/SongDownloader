@@ -31,7 +31,7 @@ $button.Add_Click({
     $songUrl = $textbox.Text
 
     # Validate the URL format
-    if (-not ($songUrl -match "^https://")) {
+    if (-not ($songUrl -match "^(http|https)://.*")) {
         [System.Windows.Forms.MessageBox]::Show("Error: Invalid URL format. Please enter a valid URL starting with 'http://' or 'https://'", "Error", "OK", "Error")
         return
     }
