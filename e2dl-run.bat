@@ -15,6 +15,3 @@ if not exist "%ps_script%" (
 
 rem Run the PowerShell script
 powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -File "%ps_script%"
-
-rem Pause to view any error messages
-pause
