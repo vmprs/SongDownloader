@@ -7,7 +7,6 @@ $form.Size = New-Object System.Drawing.Size(400, 150)
 $form.StartPosition = "CenterScreen"
 $form.FormBorderStyle = "FixedDialog"
 $form.MaximizeBox = $false
-$form.TopMost = $true
 
 # Create controls
 $label = New-Object System.Windows.Forms.Label
