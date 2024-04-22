@@ -8,6 +8,8 @@ You must install yt-dlp via Python ( pip install yt-dlp )
 
 You can run either via Powershell or the batch script provided
 
+All downloaded music will go to the music folder (Music\yt-dlp\Download\)
+
 # Supported Music Links for SongDownloader:
 
 1. YouTube:
