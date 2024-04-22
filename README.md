@@ -5,6 +5,7 @@ A powershell GUI script song downloader using yt-dlp
 
 You must have Python installed.
 You must install yt-dlp via Python ( pip install yt-dlp ) 
+
 You can run either via Powershell or the batch script provided
 
 # Supported Music Links for SongDownloader:
