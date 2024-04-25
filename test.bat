@@ -1,10 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
-
+title Automate Git
 set /a count=0
-set /p commit_message="Enter your commit message: "
 
 :commit_loop
+cls
+color 0a
+set commit_message=Hi%random%
 if %count% lss 100 (
     REM Add all files to the staging area
     git add .
