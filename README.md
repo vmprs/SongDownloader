@@ -1,10 +1,6 @@
 # SongDownloader
 A powershell GUI script song downloader using yt-dlp 
 
-# Latest Updates
-
-Now available to download in exe-form. 
-
 # First things first (Old Way To Download Script)
 
 You must have Python installed.
